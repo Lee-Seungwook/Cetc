@@ -1,0 +1,4 @@
+﻿  소스.c
+d:\vs\consoleapplication5\consoleapplication5\소스.c(7): warning C4013: 'pritnf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+소스.obj : error LNK2019: _pritnf 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+D:\vs\ConsoleApplication5\Debug\ConsoleApplication5.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

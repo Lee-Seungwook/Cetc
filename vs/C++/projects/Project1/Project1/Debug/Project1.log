@@ -1,0 +1,5 @@
+﻿  소스.cpp
+d:\vs\c++\projects\project1\project1\소스.cpp(80): error C2374: 'hodong': 재정의. 여러 번 초기화했습니다.
+  d:\vs\c++\projects\project1\project1\소스.cpp(78): note: 'hodong' 선언을 참조하십시오.
+d:\vs\c++\projects\project1\project1\소스.cpp(82): error C2374: 'wonbin': 재정의. 여러 번 초기화했습니다.
+  d:\vs\c++\projects\project1\project1\소스.cpp(81): note: 'wonbin' 선언을 참조하십시오.

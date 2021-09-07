@@ -1,0 +1,18 @@
+﻿  소스.c
+d:\vs\c\project23\project1\소스.c(6): error C2143: 구문 오류: ']'이(가) ';' 앞에 없습니다.
+d:\vs\c\project23\project1\소스.c(6): error C2143: 구문 오류: ')'이(가) ';' 앞에 없습니다.
+d:\vs\c\project23\project1\소스.c(6): error C2059: 구문 오류: ']'
+d:\vs\c\project23\project1\소스.c(6): error C2059: 구문 오류: ')'
+d:\vs\c\project23\project1\소스.c(27): error C2143: 구문 오류: ']'이(가) ';' 앞에 없습니다.
+d:\vs\c\project23\project1\소스.c(27): error C2143: 구문 오류: ';'이(가) ']' 앞에 없습니다.
+d:\vs\c\project23\project1\소스.c(28): warning C4013: 'selectscored'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+d:\vs\c\project23\project1\소스.c(28): error C2143: 구문 오류: ')'이(가) ';' 앞에 없습니다.
+d:\vs\c\project23\project1\소스.c(28): error C2059: 구문 오류: ')'
+d:\vs\c\project23\project1\소스.c(30): warning C4020: 'binary_search': 실제 매개 변수가 너무 많습니다.
+d:\vs\c\project23\project1\소스.c(30): error C2143: 구문 오류: ')'이(가) ';' 앞에 없습니다.
+d:\vs\c\project23\project1\소스.c(30): error C2059: 구문 오류: ')'
+d:\vs\c\project23\project1\소스.c(30): error C2143: 구문 오류: ';'이(가) '==' 앞에 없습니다.
+d:\vs\c\project23\project1\소스.c(32): error C2181: if와 짝을 이루지 않는 잘못된 else문입니다.
+d:\vs\c\project23\project1\소스.c(33): warning C4020: 'binary_search': 실제 매개 변수가 너무 많습니다.
+d:\vs\c\project23\project1\소스.c(33): error C2143: 구문 오류: ')'이(가) ';' 앞에 없습니다.
+d:\vs\c\project23\project1\소스.c(33): error C2059: 구문 오류: ')'

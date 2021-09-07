@@ -1,0 +1,5 @@
+﻿소스2.obj : error LNK2005: _init이(가) 소스1.obj에 이미 정의되어 있습니다.
+소스2.obj : error LNK2005: _insert_edge이(가) 소스1.obj에 이미 정의되어 있습니다.
+소스2.obj : error LNK2005: _insert_vertex이(가) 소스1.obj에 이미 정의되어 있습니다.
+소스2.obj : error LNK2005: _main이(가) 소스1.obj에 이미 정의되어 있습니다.
+D:\vs\C\Project15\Debug\Project1.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

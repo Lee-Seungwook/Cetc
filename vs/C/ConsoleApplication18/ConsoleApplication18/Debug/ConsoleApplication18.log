@@ -1,0 +1,3 @@
+﻿  소스.cpp
+d:\vs\consoleapplication18\consoleapplication18\소스.cpp(11): warning C4101: 'band' :참조되지 않은 지역 변수입니다.
+  ConsoleApplication18.vcxproj -> D:\vs\ConsoleApplication18\Debug\ConsoleApplication18.exe

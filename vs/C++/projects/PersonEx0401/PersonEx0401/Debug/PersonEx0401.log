@@ -1,0 +1,3 @@
+﻿  PersonEx0401.cpp
+d:\vs\c++\projects\personex0401\personex0401\personex0401.cpp(30): error C2440: 'return': 'char *'에서 'int'(으)로 변환할 수 없습니다.
+  d:\vs\c++\projects\personex0401\personex0401\personex0401.cpp(30): note: 이 변환이 가능한 컨텍스트가 없습니다.

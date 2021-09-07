@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+d:\vs\c++\projects\personex0408\consoleapplication1\consoleapplication1.cpp(86): error C3867: 'phnum::getnum': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+d:\vs\c++\projects\personex0408\consoleapplication1\consoleapplication1.cpp(95): error C3867: 'phnum::getname': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+d:\vs\c++\projects\personex0408\consoleapplication1\consoleapplication1.cpp(110): error C2541: 'delete': 포인터가 아닌 개체를 삭제할 수 없습니다.
+d:\vs\c++\projects\personex0408\consoleapplication1\consoleapplication1.cpp(121): error C2541: 'delete': 포인터가 아닌 개체를 삭제할 수 없습니다.
+d:\vs\c++\projects\personex0408\consoleapplication1\consoleapplication1.cpp(127): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.

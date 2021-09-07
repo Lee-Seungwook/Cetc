@@ -1,0 +1,2 @@
+﻿  ConsoleApplication3.cpp
+d:\vs\c++\projects\consoleapplication3\consoleapplication3\consoleapplication3.cpp(93): error C2228: '.setname' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.

@@ -1,0 +1,52 @@
+﻿  소스.c
+d:\vs\consoleapplication11\consoleapplication11\소스.c(20): warning C4996: 'getche': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getche. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(455): note: 'getche' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(26): warning C4102: 'dafault': 참조되지 않은 레이블입니다.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(45): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(48): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(50): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(68): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(70): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(72): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(74): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(77): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 'strcat' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(78): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 'strcat' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(79): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 'strcat' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(80): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 'strcat' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(81): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 'strcat' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(82): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 'strcat' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(98): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(101): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(104): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(112): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(123): warning C4129: 'E': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(129): warning C4552: '>>': 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(124): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(126): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(129): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(131): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+d:\vs\consoleapplication11\consoleapplication11\소스.c(130): warning C4700: 초기화되지 않은 'fp2' 지역 변수를 사용했습니다.
+  ConsoleApplication11.vcxproj -> D:\vs\ConsoleApplication11\Debug\ConsoleApplication11.exe

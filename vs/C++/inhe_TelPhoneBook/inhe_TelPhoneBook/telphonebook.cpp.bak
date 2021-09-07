@@ -1,0 +1,141 @@
+//telphonebook.cpp
+//
+#include "telphonebook.h"
+
+void TelPhoneBook::insert()
+{
+	char name[NAMELEN] ;
+	char phone[PHONELEN] ;
+	char addr[ADDRLEN] ;
+	char pos[POSLEN] ;
+
+	int choice = 0 ;
+
+	cout << "Enter What type of Person : "
+	     <<"(1.Friend, 2.Companion) ... " ;
+	cin >> choice ; 
+	cin.get() ;
+
+	cout << "Enter Name : " ;
+	cin.getline(name , NAMELEN, '\n') ;
+	cout <<"Enter Phone Number : " ;
+	cin.getline( phone, PHONELEN, '\n') ;
+	//cin.ignore( 1, '\n') ;     
+	
+	ArrayElm p ;   //Person *p ;  똑같은 의미
+
+	switch(choice)
+	{
+	case 1 :
+		{
+			cout << "Enter Address : " ;
+			//cin >> addr ;
+			cin.getline(addr , 100) ;
+			p = new Friend(name , phone , addr) ;
+			break ;
+		}
+	case 2: 
+		{
+			cout <<"Enter Position : " ;
+			//cin >> pos ; 
+			cin.getline(pos, 20) ;    
+			p = new Companion(name, phone , pos) ;
+			break ;     
+		}
+	}
+	phoneList.Insert(p) ;       
+	cout <<" New Data Inserted..." << endl ;
+} ;       
+
+void TelPhoneBook::search()
+{
+	char name[NAMELEN] ;
+
+	cout << "Enter Name : " ;
+	cin.getline(name , NAMELEN, '\n') ;
+
+	cout << endl  << " [ Search Result ] : " ;
+
+	for(int i =0 ; i < phoneList.GetSize() ; i++)
+		if(strcmp(phoneList.GetItem(i)->getName(),name)==0 )
+		{
+			phoneList.GetItem(i)->print() ;
+			return ;
+		}
+	cout << "No Data Found" << endl ;
+} ;       
+
+void TelPhoneBook::remove()
+{
+	char name[NAMELEN] ;
+
+	cout << "Enter Name : " ;
+	cin.getline(name , NAMELEN, '\n') ;
+
+	cout << endl << " [ Delete Result ] : " ;
+
+	for(int i =0  ; i < phoneList.GetSize() ; i++)
+		if(strcmp(phoneList.GetItem(i)->getName(),name)==0 )
+		{
+			phoneList.Remove(i) ; 
+			cout << "Delete Completed..." << endl ;
+			return ;
+		}
+	cout << "No Data Found " << endl ;
+}
+
+void TelPhoneBook::printAll()
+{
+	cout << endl << "[ Print Result ] : " << endl ;
+
+	for(int i =0 ; i < phoneList.GetSize() ; i++)
+		phoneList.GetItem(i)->print() ;     
+}
+
+void TelPhoneBook::update()
+{
+	char name[NAMELEN] ; 
+	char phone[PHONELEN] ;  
+	char addr[ADDRLEN] ; 
+	char pos[POSLEN] ; 
+	int upidx = 0 ;
+	int choice = 0 ; 
+
+	cout<< "Enter What type of Person for Update : "
+      	<<"(1.Friend , 2.Companion)... " ;     
+	cin>>choice ;  
+	cin.get() ;
+	
+	cout <<" Index for Update : " ;
+	cin >> upidx ;
+	cin.get() ;
+
+	cout << "Enter Name : " ;   
+	cin.getline(name , NAMELEN, '\n') ;
+	cout << "Enter Phone Number : " ;
+	cin.getline( phone , PHONELEN , '\n')  ; 
+	
+	Person* p ;   
+
+	switch(choice)
+	{
+	case 1 :
+		{
+			cout<< "Enter Address : " ;   
+			cin.getline(addr , 100, '\n') ;     
+			p = new Friend(name , phone, addr) ;      
+			break ;    
+		}
+	case 2 :
+		{
+			cout << "Enter Position : " ;   
+			cin.getline(pos , 20, '\n') ;   
+			p = new Companion(name, phone, pos) ;     
+			break ;     
+		}
+	}
+	//phoneList.Update(Person(name , phone) , upidx ) ;
+	phoneList.Update( p , upidx ) ;
+
+	cout <<" Update Data Completed..." << endl ;     
+}

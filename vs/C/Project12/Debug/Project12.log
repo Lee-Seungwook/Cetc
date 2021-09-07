@@ -1,0 +1,8 @@
+﻿  소스.c
+d:\vs\c\project12\소스.c(40): warning C4133: '초기화 중': 'TreeNode *'과(와) 'TreeNode *' 사이의 형식이 호환되지 않습니다.
+d:\vs\c\project12\소스.c(43): warning C4133: '초기화 중': 'TreeNode *'과(와) 'TreeNode *' 사이의 형식이 호환되지 않습니다.
+d:\vs\c\project12\소스.c(44): warning C4133: '초기화 중': 'TreeNode *'과(와) 'TreeNode *' 사이의 형식이 호환되지 않습니다.
+d:\vs\c\project12\소스.c(46): warning C4133: '초기화 중': 'TreeNode *'과(와) 'TreeNode *' 사이의 형식이 호환되지 않습니다.
+d:\vs\c\project12\소스.c(47): warning C4133: '초기화 중': 'TreeNode *'과(와) 'TreeNode *' 사이의 형식이 호환되지 않습니다.
+  LINK : D:\vs\C\201636030 이승욱 0509과제\Debug\Project12.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  Project12.vcxproj -> D:\vs\C\201636030 이승욱 0509과제\Debug\Project12.exe

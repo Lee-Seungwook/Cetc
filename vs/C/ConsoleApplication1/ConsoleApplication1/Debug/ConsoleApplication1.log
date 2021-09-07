@@ -1,0 +1,3 @@
+﻿  소스.c
+d:\vs\consoleapplication1\consoleapplication1\소스.c(19): warning C4477: 'scanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+  ConsoleApplication1.vcxproj -> D:\vs\ConsoleApplication1\Debug\ConsoleApplication1.exe

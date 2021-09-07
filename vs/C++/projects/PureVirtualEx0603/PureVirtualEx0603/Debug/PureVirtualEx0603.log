@@ -1,0 +1,16 @@
+﻿  pch.cpp
+  PureVirtualEx0603.cpp
+d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(80): error C2259: 'Game': 추상 클래스를 인스턴스화할 수 없습니다.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(80): note: 다음 멤버가 원인입니다.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(80): note: 'void StarCraft::terranAttack(void)': abstract입니다.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(21): note: 'StarCraft::terranAttack' 선언을 참조하십시오.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(80): note: 'void StarCraft::GoodGame(void)': abstract입니다.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(23): note: 'StarCraft::GoodGame' 선언을 참조하십시오.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(80): note: 'void StarCraft::zergAttack(void)': abstract입니다.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(20): note: 'StarCraft::zergAttack' 선언을 참조하십시오.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(80): note: 'void StarCraft::print(void)': abstract입니다.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(22): note: 'StarCraft::print' 선언을 참조하십시오.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(80): note: 'void StarCraft::GoodGame(void)': abstract입니다.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(23): note: 'StarCraft::GoodGame' 선언을 참조하십시오.
+d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(80): error C2664: 'Game::Game(const Game &)': 인수 4을(를) 'const char [7]'에서 'char *'(으)로 변환할 수 없습니다.
+  d:\vs\c++\projects\purevirtualex0603\purevirtualex0603\purevirtualex0603.cpp(80): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
